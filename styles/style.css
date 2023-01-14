@@ -1,0 +1,84 @@
+/* Common Styles */
+/* font link  */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Poppins:ital,wght@1,500&family=Work+Sans&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+body{
+  width: 1400px;
+  margin: 0 auto;
+}
+.btn-primary{
+  border: none;
+  border-radius: 8px;
+  padding: 20px 25px;
+  color: #ffffff;
+  background-color: #FF900E;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+/* Header Style Start*/
+/* navigation Style Start  */
+.header{
+  background: #FF900E1A;
+  padding-left: 75px;
+  padding-top: 30px;
+  margin-bottom: 130px;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.logo{
+  font-size: 45px;
+  font-weight: 700;
+  color: #131313;
+}
+ul{
+  display: flex;
+}
+ul li{
+  list-style: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+ul li a{
+  text-decoration: none;
+  color: #424242;
+  margin-right: 80px;
+  
+}
+/* Navigation Style End  */
+/* Banner Style Start */
+.banner{
+  width: 862px;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner-title{
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+}
+.banner-description{
+  margin: 100px 0 30px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #727272;
+}
+.banner-image{
+  display: flex;
+  justify-content: center;
+}
+.banner-img{
+  width: 75%;
+  margin-top:50px;
+  margin-bottom: 45px;
+}
