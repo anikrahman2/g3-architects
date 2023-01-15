@@ -28,7 +28,21 @@ main{
   flex-direction: column;
   align-items: center;
 }
-
+.section-info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.section-title{
+  font-size: 45px;
+  font-weight: 700;
+  text-align: left;
+}
+.section-description{
+  color: #727272;
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
 
 /* Header Style Start*/
 /* navigation Style Start  */
@@ -165,6 +179,34 @@ ul li a{
 }
 .feature-experience{
   font-size: 65px;
+}
+/* Some Fact-Section */
+.facts-items{
+  display: flex;
+  justify-content: center;
+  gap: 165px;
+  margin-bottom: 240px;
+}
+.fact-item{
+  height: 195px;
+  width: 240px;
+  text-align: center;
+  border: 3px solid #FF900E;
+  border-radius: 8px;
+  padding-top: 45px;
+  transition: transform .5s ease-in;
+}
+.fact-item:hover{
+  transform: rotate(20deg);
+}
+.fact-item-title{
+  font-size: 45px;
+  margin-top: 10px;
+}
+.fact-item-description{
+  color: #727272;
+  font-size: 20px;
+  margin-top: 5px;
 }
 
 
