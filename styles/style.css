@@ -331,5 +331,15 @@ ul li a{
     flex-direction: column;
     gap: 20px;
   }
+
+  /* Our Sponsor Section */
+  .sponsor-description{
+    width: 90%;
+  }
+  .sponsor-items-container{
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
  
 }
