@@ -19,6 +19,15 @@ body{
   font-size: 20px;
   font-weight: 600;
 }
+.orange-text{
+  color: #FF900E;
+
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 
 /* Header Style Start*/
@@ -82,6 +91,34 @@ ul li a{
   margin-top:50px;
   margin-bottom: 45px;
 }
+/* main Section Style  */
+/* Section Quick List  */
+.quick-list-container{
+  display: flex;
+  gap: 70px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.quick-list-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+.quick-list-info{
+  width: 537px;
+}
+.quick-list-title{
+  font-weight: 700;
+  font-size: 45px;
+}
+.quick-list-description{
+  color: #727272;
+  margin-top: 24px;
+  margin-bottom: 30px;
+}
+
+
+
 /* Responsive Design  */
 /* Mobile Devices */
 @media only screen and (max-width: 576px) {
