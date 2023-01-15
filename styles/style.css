@@ -117,6 +117,55 @@ ul li a{
   margin-bottom: 30px;
 }
 /* Quick List Section End  */
+/* section Feature You Love and Enjoy */
+.enjoy-containear{
+  display: flex;
+  gap: 96px;
+  align-items: center;
+}
+.enjoy-info{
+  width: 585px;
+}
+.enjoy-info-title{
+  font-size: 45px;
+  font-weight: 700;
+  padding-left: 10px;
+  margin-bottom: 25px;
+  border-left: 5px solid #FF900E;
+}
+.enjoy-info-description{
+  color: #727272;
+  margin-bottom: 30px;
+}
+.enjoy-info-features{
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 10px rgba(70, 68, 68, 0.075);
+}
+.enjoy-info-features-title{
+  color: #131313;
+  font-size: 20px;
+}
+.enjoy-info-features-description{
+  color: #727272;
+  margin-top: 10px;
+}
+.feature-btn{
+  padding: 45px 42px;
+  border: none;
+  background: #FF900E;
+  color: #ffffff;
+  width: 342px;
+  border-radius: 8px;
+  font-size: 25px;
+  position: relative;
+  bottom: 150px;
+  left: 625px;
+}
+.feature-experience{
+  font-size: 65px;
+}
 
 
 
